@@ -12,55 +12,58 @@ It provides basic text editing functionalities similar to Windows Notepad — in
 * 🔍 **Find and Replace (optional) –** Search and modify text quickly.
 * **🎨 Font Customization –** Change font size, style, and color.
 * **❌ Exit Confirmation –** Prompt before closing unsaved work.
+  
 
 **🧰 Tech Stack**
 
-**Component	   Description**
-**Language**	    Java
-**GUI Framework**	Java Swing
-**IDE** (Recommended)	IntelliJ IDEA / Eclipse / NetBeans
-**File Handling**	Java I/O (BufferedReader, BufferedWriter, FileReader, FileWriter)
+| Component             | Description                                                       |
+| --------------------- | ----------------------------------------------------------------- |
+| **Language**          | Java                                                              |
+| **GUI Framework**     | Java Swing                                                        |
+| **IDE (Recommended)** | IntelliJ IDEA / Eclipse / NetBeans                                |
+| **File Handling**     | Java I/O (BufferedReader, BufferedWriter, FileReader, FileWriter) |
+
 
 **📁 Project Structure**
-
+```  
 NotepadEditor/
     ├── Notepad.java 
     ├── NotepadEditor.java
     ├── notepadIcon.png
-
+    ├── README.md
+```
 Structure may vary depending on implementation.
 
 **⚙️ How to Run the Project**
 
-1. Clone the Repository
-   git clone https://github.com/yourusername/NotepadEditor.git
+**1. Clone the Repository**
+* git clone https://github.com/yourusername/NotepadEditor.git
 
-2. Open in Your IDE
+**2. Open in Your IDE**
 
-Open the project in IntelliJ IDEA, Eclipse, or NetBeans.
+* Open the project in **IntelliJ IDEA, Eclipse**, or **NetBeans**.
+* Ensure your IDE has **Java 8+** configured.
 
-Ensure your IDE has Java 8+ configured.
-
-3. Compile and Run
-   javac NotepadEditor.java
-   java NotepadEditor
-
+**3. Compile and Run**
+* javac NotepadEditor.java
+* java NotepadEditor
 
 Or simply run the main class directly from your IDE.
 
 **🔒 Error Handling & Validation**
 
-1. Prompts for unsaved changes before exiting or opening a new file.
-2. Displays error messages if file operations fail.
-3Gracefully handles empty file selections or invalid inputs.
+* Prompts for unsaved changes before exiting or opening a new file.
+* Displays error messages if file operations fail.
+* Gracefully handles empty file selections or invalid inputs.
 
 **💡 Future Enhancements**
 
-1. Add syntax highlighting for different file types.
-2. Implement auto-save functionality.
-3. Add word/character counter.
-4. Support multiple tabs (multi-document interface).
+* Add syntax highlighting for different file types.
+* Implement auto-save functionality.
+* Add word/character counter.
+* Support multiple tabs (multi-document interface).
 
-👨‍💻 Author
+**👨‍💻 Author**
 
 Mohammad Akhtar babu
+
